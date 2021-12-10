@@ -1,0 +1,854 @@
+.warrior {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/warrior.png);
+    display: inline-block;
+}
+
+.yellow_key {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    background: url(../images/possess/yellow_key.png);
+    display: inline-block;
+	background-size: 100% 100%;
+	background-size: 100% 100%;
+	-webkit-filter: brightness(0.9);
+	filter: brightness(0.9);
+}
+
+.blue_key {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    background: url(../images/possess/blue_key.png);
+    display: inline-block;
+	background-size: 100% 100%;
+	-webkit-filter: brightness(0.9);
+	filter: brightness(0.9);
+}
+
+.red_key {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    background: url(../images/possess/red_key.png);
+    display: inline-block;
+	background-size: 100% 100%;
+	-webkit-filter: brightness(0.9);
+	filter: brightness(0.9);
+}
+
+.resource_0 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_0.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_1 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_1.png);
+    display: inline-block;
+}
+.resource_1_t {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_1_transparent.png);
+    display: inline-block;
+}
+
+.resource_2 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_2.png);
+    display: inline-block;
+}
+
+.resource_3 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_3.png);
+    display: inline-block;
+	background-size: 102% 102%;
+}
+
+.resource_4 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_4.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_5 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_5.png);
+    display: inline-block;
+}
+
+.resource_6 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_6.png);
+    display: inline-block;
+}
+
+.resource_7 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_7.png);
+    display: inline-block;
+}
+
+.resource_8 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_8.png);
+    display: inline-block;
+}
+
+.resource_9 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_9.png);
+    display: inline-block;
+}
+
+.resource_10 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_10.png);
+    display: inline-block;
+}
+
+.resource_11 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_11.png);
+    display: inline-block;
+}
+
+.resource_12 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_12.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_13 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_13.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_1300 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_13.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_14 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_14.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+.resource_15 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_15.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+.resource_16 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_16.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+.resource_17 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_17.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+.resource_18 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_18.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_19 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_19.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_20 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_20.png);
+    display: inline-block;
+}
+
+.resource_21 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_21.png);
+    display: inline-block;
+}
+
+.resource_22 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_22.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_23 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_23.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_24 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_24.png);
+    display: inline-block;
+}
+
+.resource_25 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_25.png) no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_26 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_26.png) no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_27 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_27.png);
+    display: inline-block;
+}
+
+.resource_28 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_28.png);
+    display: inline-block;
+}
+
+.resource_29 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_29.png);
+    display: inline-block;
+}
+
+.resource_30 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_30.png);
+    display: inline-block;
+}
+
+.resource_31 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_31.png) no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_32 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_32.png) no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_33 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_33.png) no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_34 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_34.png) no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_35 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_35.png) no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_36 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_36.png) no-repeat;
+	display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_37 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_37.png);
+    display: inline-block;
+}
+
+.resource_38 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_38.png);
+    display: inline-block;
+}
+
+.resource_39 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_39.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_40 {
+    height: 47px;
+    width: 47px;
+    background: url(../images/main/resource_40.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_41 {
+    height: 47px;
+    width: 47px;
+    background: url(../images/main/resource_41.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_42 {
+    height: 47px;
+    width: 47px;
+    background: url(../images/main/resource_42.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_43 {
+    height: 46px;
+    width: 47px;
+    background: url(../images/main/resource_43.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_44 {
+    height: 46px;
+    width: 47px;
+    background: url(../images/main/resource_44.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_45 {
+    height: 46px;
+    width: 47px;
+    background: url(../images/main/resource_45.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_46 {
+    height: 46px;
+    width: 47px;
+    background: url(../images/main/resource_46.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_47 {
+    height: 46px;
+    width: 47px;
+    background: url(../images/main/resource_47.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_48 {
+    height: 46px;
+    width: 47px;
+    background: url(../images/main/resource_48.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_49 {
+    height: 46px;
+    width: 47px;
+    background: url(../images/main/resource_49.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_50 {
+    height: 46px;
+    width: 47px;
+    background: url(../images/main/resource_50.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_51 {
+    height: 46px;
+    width: 47px;
+    background: url(../images/main/resource_51.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_52 {
+    height: 46px;
+    width: 47px;
+    background: url(../images/main/resource_52.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_53 {
+    height: 46px;
+    width: 47px;
+    background: url(../images/main/resource_53.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_54 {
+    height: 46px;
+    width: 47px;
+    background: url(../images/main/resource_54.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_55 {
+    height: 47px;
+    width: 47px;
+    background: url(../images/main/resource_55.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_56 {
+    height: 47px;
+    width: 47px;
+    background: url(../images/main/resource_56.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_57 {
+    height: 47px;
+    width: 47px;
+    background: url(../images/main/resource_57.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_58 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_58.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_59 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_59.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_60 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_60.png);
+    display: inline-block;
+}
+
+.resource_61 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_61.png);
+    display: inline-block;
+}
+
+.resource_62 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_62.png);
+    display: inline-block;
+}
+
+.resource_63 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_63.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_64 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_64.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_65 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_65.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_66 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_66.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_67 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_67.png);
+    display: contain;
+	background-size: 100% 100%;
+}
+
+.resource_68 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_68.png);
+    display: contain;
+	background-size: 100% 100%;
+}
+
+.resource_70 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_70.png);
+    display: contain;
+	background-size: 100% 100%;
+}
+.resource_71 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_70.png);
+    display: contain;
+	background-size: 100% 100%;
+}
+.resource_72 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_70.png);
+    display: contain;
+	background-size: 100% 100%;
+}
+
+.resource_80 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_80.png);
+    display: inline-block;
+}
+
+.resource_81 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_81.png);
+    display: inline-block;
+}
+
+.resource_82 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_82.png);
+    display: inline-block;
+}
+
+.resource_83 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_83.png);
+    display: inline-block;
+}
+
+.resource_84 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_84.png);
+    display: inline-block;
+}
+
+.resource_85 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_85.png);
+    display: inline-block;
+}
+
+.resource_86 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_86.png);
+    display: inline-block;
+}
+
+.resource_87 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_87.png);
+    display: inline-block;
+}
+
+.resource_88 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_88.png);
+    display: inline-block;
+}
+
+.resource_89 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_89.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_90 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_90.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_91 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_91.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_92 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_92.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_93 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_93.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_94 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_94.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_95 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_95.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+.resource_96 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_96.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+.resource_97 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_97.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_98 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_98.png);
+    display: inline-block;
+}
+
+.resource_99 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_99.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_100 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_100.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_101 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_101.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_102 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_102.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_103 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_103.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_104 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_104.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_105 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_105.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_106 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_106.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_107 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_107.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_108 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_108.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_109 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_109.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_110 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_110.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+.resource_111 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_111.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
+
+.resource_130 {
+    height: 46px;
+    width: 46px;
+    background: url(../images/main/resource_130.png);
+    display: inline-block;
+	background-size: 100% 100%;
+}
