@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>魔塔</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/init.css">
+	</head>
+	<body ondragstart="return false;">
+		<div style="background-color: aquamarine;height: 1200px;user-select: none"">
+			<div id="game" class="game">
+				<div id="attribute" class="attribute">
+					<div id="floor" class="floor"></div>
+					<div class="col">
+						<img class="blood_img" src="images/attribute/blood.png" alt="血量">
+						<div id="blood" class="value"></div>
+					</div>
+					<div class="col">
+						<img class="blood_img" src="images/attribute/attack.png" alt="攻击力">
+						<div id="attack" class="value"></div>
+					</div>
+					<div class="col">
+						<img class="blood_img" src="images/attribute/defense.png" alt="防御力">
+						<div id="defense" class="value"></div>
+					</div>
+					<div class="col">
+						<img class="blood_img" src="images/attribute/gold.png" alt="金钱">
+						<div id="gold" class="value"></div>
+					</div>
+					<div class="col">
+						<img class="key_img" src="images/possess/red_key.png" alt="红钥匙">
+						<div id="red_key" class="value"></div>
+					</div>
+					<div class="col">
+						<img class="key_img" src="images/possess/blue_key.png" alt="蓝钥匙">
+						<div id="blue_key" class="value"></div>
+					</div>
+					<div class="col">
+						<img class="key_img" src="images/possess/yellow_key.png" alt="黄钥匙">
+						<div id="yellow_key" class="value"></div>
+					</div>
+
+				</div>
+
+				<div id="main" class="main">
+
+				</div>
+				<div id="possess" class="possess">
+					<div id="weapon" class="weapon">
+						<div id="weapon_name" class="weapon_name">武器<br>神圣剑</div>
+						<div id="weapon_img" class="weapon_img"></div>
+					</div>
+					<div id="armor" class="weapon">
+						<div id="armor_name" class="armor_name">武器<br>神圣盾</div>
+						<div id="armor_img" class="armor_img"></div>
+					</div>
+					<div id="tools" class="tools"></div>
+					<!-- <div id="keys" class="keys"></div> -->
+				</div>
+
+				<!-- 默认隐藏的界面 -->
+				<!-- 对话框 -->
+				<div id="message" class="message"></div>
+				<!-- 读取存档 -->
+				<div id="load" class="load"></div>
+				<!-- 怪物手册,读取本层怪物信息 -->
+				<div id="handbook" class="handbook">按E/ESC退出<br /><br /></div>
+				<!-- 点击怪物手册 -->
+				<div id="click_handbook" class="click_handbook">按E/ESC退出<br /><br /></div>
+				<!-- 记事本 -->
+				<div id="notepad" class="notepad">按E/ESC退出<br /><br /></div>
+				<!-- 商店 -->
+				<div id="store" class="store">
+					<div id="store_require" class="store_title">你若给我&nbsp;&nbsp;20&nbsp;&nbsp;个金币，我就替你提升以下一种能力。</div>
+					<div id="store_elevate_dp" class="store_content" onclick="increase_dp()">1>&nbsp;&nbsp;&nbsp;生命力 +
+						100</div>
+					<div id="store_elevate_attack" class="store_content" onclick="increase_attack()">
+						2>&nbsp;&nbsp;&nbsp;攻击力 + 2</div>
+					<div id="store_elevate_defense" class="store_content" onclick="increase_defense()">
+						3>&nbsp;&nbsp;&nbsp;防御力 + 4</div>
+					<div id="store_exit" class="store_content" onclick="thanks()">4>&nbsp;&nbsp;&nbsp;谢谢，下次再说</div>
+				</div>
+
+				<div id="tips" class="tips" onclick="up_key">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Z-保存游戏&emsp;&emsp;
+					X-载入存档 &emsp;&emsp; C-重新开始
+				</div>
+				
+				<div id="direc_key" style="position: absolute;margin-top: 680px;margin-left: 430px;">
+					<div id="up_key" onclick="up_key()" style="position: absolute;">
+						<img src="images/keyboard/up.png" onclick="up_key" alt="上" style="width: 150px;height: 80px;">
+
+					</div>
+					<div id="down_key" onclick="down_key()" style="position: absolute;margin-top: 270px;">
+						<img src="images/keyboard/down.png" alt="下" style="width: 150px;height: 80px;">
+
+					</div>
+					<div id="left_key" onclick="left_key()" style="position: absolute;margin-top: 100px;margin-left: -100px;">
+						<img src="images/keyboard/left.png" alt="左" style="width: 80px;height: 150px;">
+
+					</div>
+					<div id="right_key" onclick="right_key()" style="position: absolute;margin-top: 100px;margin-left: 172px;">
+						<img src="images/keyboard/right.png" alt="右" style="width: 80px;height: 150px;">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script type="text/javascript" src="js/map.js"></script>
+		<script type="text/javascript" src="js/warrior.js"></script>
+		<script type="text/javascript" src="js/monster.js"></script>
+		<script type="text/javascript" src="js/init.js"></script>
+		<script type="text/javascript" src="js/move.js"></script>
+		<script type="text/javascript" src="js/attack.js"></script>
+		<script type="text/javascript" src="js/stair.js"></script>
+		<script type="text/javascript" src="js/events.js"></script>
+		<script type="text/javascript" src="js/save.js"></script>
+		<script type="text/javascript" src="js/tools.js"></script>
+
+
+	</body>
+</html>
