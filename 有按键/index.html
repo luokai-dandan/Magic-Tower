@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/init.css">
 	</head>
 	<body ondragstart="return false;">
-		<div style="background-color: aquamarine;height: 1200px;user-select: none"">
+		<div style="background-color: aquamarine;height: 1200px;user-select: none">
 			<div id="game" class="game">
 				<div id="attribute" class="attribute">
 					<div id="floor" class="floor"></div>
@@ -81,9 +81,13 @@
 					<div id="store_exit" class="store_content" onclick="thanks()">4>&nbsp;&nbsp;&nbsp;谢谢，下次再说</div>
 				</div>
 
-				<div id="tips" class="tips" onclick="up_key">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Z-保存游戏&emsp;&emsp;
-					X-载入存档 &emsp;&emsp; C-重新开始
+				<div id="tips" style="position: absolute;margin-top: 620px;margin-left: 25px;">
+					<button type="button" onclick="save()" style="width: 150px;height: 80px;">存档</button>
+					<button type="button" onclick="load()" style="width: 150px;height: 80px;margin-left: 650px">读档</button>
+					<button type="button" onclick="restart()" style="width: 150px;height: 80px;margin-top: 300px;">重新开始</button>
+					<button type="button" onclick="flush()" style="width: 150px;height: 80px;margin-top: 300px;margin-left: 650px">刷新</button>
 				</div>
+				
 				
 				<div id="direc_key" style="position: absolute;margin-top: 680px;margin-left: 430px;">
 					<div id="up_key" onclick="up_key()" style="position: absolute;">
