@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>魔塔</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        #neon-btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            height: 100vh;
+            background: rgb(52, 55, 68);
+            background-image: url("background.png");
+            /*background-size: 300px 300px;!* 设置图片的大小 *!*/
+            background-repeat: repeat;/* 如果图片比较小,框比他大的时候,设置的显示方式,repeat-x沿x轴显示,repeat-y沿y轴显示 */
+            /*background-position: 50% 8%;!* 设置图片的位置,left top左上,center center居中..... *!*/
+        }
+
+        .btn {
+            border: 3px solid;
+            background-color: transparent;
+            text-transform: uppercase;
+            font-size: 18px;
+            padding: 10px 20px;
+            font-weight: 300;
+        }
+
+        .one {
+            color: #4cc9f0;
+        }
+
+        .two {
+            color: #f038ff;
+        }
+
+        .three {
+            color: #b9e769;
+        }
+
+        .btn:hover {
+            color: white;
+            border: 0;
+        }
+
+        .one:hover {
+            background-color: #4cc9f0;
+            -webkit-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+            -moz-box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+            box-shadow: 10px 10px 99px 6px rgba(76,201,240,1);
+        }
+
+        .two:hover {
+            background-color: #f038ff;
+            -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+            -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+            box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+        }
+
+        .three:hover {
+            background-color: #b9e769;
+            -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+            -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+            box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+        }
+    </style>
+</head>
+<body>
+    <div id="neon-btn">
+        <button class="btn one" onclick="window.location.href = 'nokeyboard_index.html'">无键版</button>
+        <button  class="btn three" onclick="window.location.href = 'keyboard_index.html'">有键版</button>
+    </div>
+</body>
+</html>
